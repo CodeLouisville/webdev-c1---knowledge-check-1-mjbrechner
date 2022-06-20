@@ -226,12 +226,15 @@ body {
 }
 
 .hero-container {
-    display: block;
+    /* Center div `hero-content` in `hero` section */
+    display: flex;
+    /* Center div `hero-content` in `hero` section */
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
     padding: 0;
     margin: 0;
+
 }
 
 .hero-content {
@@ -239,9 +242,8 @@ body {
     max-width: 1000px;
     text-align: center;
     padding: 24px;
-    margin: 0 auto;
     /* Center div `hero-content` in `hero` section */
-    align-items: center;
+    margin: auto;
     /* Center div `hero-content` in `hero` section */
 }
 
@@ -362,6 +364,7 @@ a:active {}
     color: #b1dba8;
     border: 2px solid #0c7215;
 }
+
 /* Change `Hero` button `:hover` colors. */
 
 
