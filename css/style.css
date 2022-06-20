@@ -227,10 +227,10 @@ body {
 
 .hero-container {
     /* Center div `hero-content` in `hero` section */
-      display: flex;
-  justify-content: center;
-  align-items: center;
-/* Center div `hero-content` in `hero` section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Center div `hero-content` in `hero` section */
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -286,6 +286,14 @@ body {
 }
 
 .projects-item {}
+
+.contactme-container {
+    background: #29326a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        padding: 1px 0;
+}
 
 .footer-container {
     background: #1b1b27;
@@ -359,12 +367,11 @@ a:active {}
 /* Change `Hero` button `:hover` colors. */
 .hero-content .btn:hover,
 .hero-content .btn:active {
-    background: #12df0b;
-    color: #b1dba8;
-    border: 2px solid #0c7215;
+    background: #74b44a;
+    color: #F1F1F1;
+    border: 2px solid #74b44a;
 }
 /* Change `Hero` button `:hover` colors. */
-
 
 .btn,
 .btn:visited {
